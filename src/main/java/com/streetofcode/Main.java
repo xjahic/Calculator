@@ -34,10 +34,5 @@ public class Main {
             System.out.println("Result is " + result);
         } while(true);
 
-
     }
-
-
-
-
 }
