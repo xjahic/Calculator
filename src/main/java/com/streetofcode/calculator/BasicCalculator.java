@@ -7,6 +7,6 @@ import java.util.HashMap;
 class BasicCalculator extends AbstractCalculator {
 
     BasicCalculator(HashMap<Character, Operation> operationMap) {
-        super(operationMap);
+        super("BasicCalculator", operationMap);
     }
 }

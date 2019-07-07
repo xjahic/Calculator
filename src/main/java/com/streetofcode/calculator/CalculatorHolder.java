@@ -48,5 +48,4 @@ public class CalculatorHolder {
                 throw new IllegalArgumentException("Unsupported operation");
         }
     }
-
 }

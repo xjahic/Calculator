@@ -29,9 +29,8 @@ public class Main {
             }
 
             Operands operands = new Operands(left, right);
-            final double result = calculatorHolder.calculate(operands, operator);
+            calculatorHolder.calculate(operands, operator);
 
-            System.out.println("Result is " + result);
         } while(true);
 
     }
